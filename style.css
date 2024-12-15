@@ -1,0 +1,267 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd2d;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color:  #224e4e;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px; /* Margen inferior para separar del cuerpo */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Ajusta el tamaño del ícono según necesites */
+    width: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilos para el cuerpo */
+#cuerpo {
+    background-color: #f0f0f0; /* Color de fondo opcional para destacar el cuerpo */
+    padding: 20px;
+}
+
+.parte1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parte1 img {
+    border-radius: 50%; /* Para redondear la imagen de perfil si es necesario */
+    margin-bottom: 10px;
+}
+
+.parte1 h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.parte1 h2 {
+    font-size: 18px;
+    color: #666;
+}
+.parte1 img:last-child {
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    border-radius: 0; /* Elimina cualquier borde redondeado */
+    margin-top: 20px; /* Añade espacio superior */
+}
+.parte2 {
+    margin-top: 50px; /* Añade espacio superior */
+    text-align: center;
+    background-color: rgb(65, 43, 126);
+}
+
+.parte2 h1 {
+    font-size: 28px; /* Cambia el tamaño del título */
+    font-family: 'Arial Black', sans-serif; /* Cambia la fuente del título */
+    color: #e7d9d9; /* Cambia el color del título */
+    margin-bottom: 20px; /* Ajusta el margen inferior del título */
+}
+
+.parte2 h2 {
+    font-size: 20px; /* Cambia el tamaño del texto */
+    font-family: 'Times New Roman', serif; /* Cambia la fuente del texto */
+    color: #acb166; /* Cambia el color del texto */
+    line-height: 1.6; /* Ajusta el interlineado del texto */
+    max-width: 800px; /* Limita el ancho máximo del texto */
+    margin: 0 auto; /* Centra horizontalmente el texto */
+}
+/* Estilos para la parte 3 */
+.parte3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Añade espacio entre las tarjetas */
+}
+
+.card {
+    width: 18rem;
+    text-align: center; /* Centra el contenido dentro de cada tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+    transition: transform 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px; /* Tamaño del título */
+    font-weight: bold; /* Negrita para el título */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.card-text {
+    font-size: 16px; /* Tamaño del texto */
+    color: #666; /* Color del texto */
+}
+
+.card a {
+    margin-right: 5px; /* Espacio entre los botones */
+}
+.card svg {
+    display: block; /* Asegura que el SVG sea un bloque */
+    margin: 0 auto 10px; /* Centra horizontalmente y añade espacio inferior */
+    width: 90px; /* Ancho del SVG */
+    height: 120px; /* Alto del SVG */
+}
+.parte4 {
+    text-align: center;
+    margin-top: 30px; /* Añade espacio superior */
+    margin-bottom: 30px; /* Añade espacio inferior */
+}
+
+.parte4 h1 {
+    font-size: 28px; /* Cambia el tamaño del título h1 */
+    font-family: 'Arial Black', sans-serif; /* Cambia la fuente del título h1 */
+    color: #333; /* Cambia el color del título h1 */
+    margin-bottom: 10px; /* Ajusta el margen inferior del título h1 */
+}
+
+.parte4 h2 {
+    font-size: 18px; /* Cambia el tamaño del título h2 */
+    font-family: 'Times New Roman', serif; /* Cambia la fuente del título h2 */
+    color: #666; /* Cambia el color del título h2 */
+    margin-bottom: 20px; /* Ajusta el margen inferior del título h2 */
+}
+
+.parte4 img {
+    width: calc(200px); /* Ajusta el ancho de las imágenes */
+    margin: 10px; /* Añade espacio entre las imágenes */
+    border-radius: 8px; /* Añade bordes redondeados a las imágenes */
+}
+.parte4 button {
+    margin-top: 20px; /* Añade espacio superior al botón */
+    align-items: center;
+}
+.parte5 {
+    text-align: center; /* Centra todo el contenido dentro de .parte5 */
+    margin-top: 30px; /* Añade espacio superior */
+    margin-bottom: 30px; /* Añade espacio inferior */
+}
+
+.list-group {
+    display: inline-block; /* Hace que el cuadro de lista se comporte como un bloque en línea */
+    max-width: 400px; /* Establece el ancho máximo del cuadro de lista */
+    text-align: left; /* Alinea el texto dentro del cuadro de lista a la izquierda */
+    margin: 0 auto; /* Centra el cuadro de lista horizontalmente */
+    margin-bottom: 20px; /* Añade espacio inferior al cuadro de lista */
+}
+
+.list-group h1 {
+    font-size: 30px; /* Cambia el tamaño del título h1 dentro del cuadro de lista */
+    color: #333; /* Cambia el color del texto del título */
+    margin-bottom: 10px; /* Ajusta el margen inferior del título */
+    text-align: center; /* Centra el título dentro del cuadro de lista */
+}
+
+.list-group-item {
+    font-size: 16px; /* Cambia el tamaño del texto de los elementos de la lista */
+    border-color: #ddd; /* Cambia el color del borde de los elementos de la lista */
+    text-align: left; /* Alinea el texto de los elementos de la lista a la izquierda */
+}
+
+.btn-primary {
+    margin-top: 20px; /* Añade espacio superior al botón */
+    display: block; /* Hace que el botón sea un bloque para centrarlo */
+}
+.parte6 {
+    text-align: center; /* Centra todo el contenido dentro de .parte6 */
+    margin-top: 30px; /* Añade espacio superior */
+    margin-bottom: 30px; /* Añade espacio inferior */
+}
+
+.parte6 h1 {
+    font-size: 32px; /* Cambia el tamaño del título h1 */
+    color: #333; /* Cambia el color del texto del título */
+}
+
+.parte6 h2 {
+    font-size: 18px; /* Cambia el tamaño del texto del subtítulo h2 */
+    color: #666; /* Cambia el color del texto del subtítulo */
+    margin-bottom: 20px; /* Añade espacio inferior al subtítulo */
+}
+
+.carousel-item img {
+    background-color: #1d26a8;
+    height: 400px; /* Ajusta la altura deseada */
+    margin: 0 auto; /* Centra horizontalmente */
+    object-fit: contain; /* Ajusta la imagen manteniendo la proporción completa */
+    max-width: 100%; /* Asegura que la imagen no se expanda más allá de su tamaño original */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto; /* Ajusta el ancho de los controles de navegación del carrusel */
+    top: 50%; /* Alinea verticalmente los controles al centro */
+    transform: translateY(-50%); /* Ajusta la posición vertical de los controles */
+}
+#pie {
+    background-color: #224e4e;
+    text-align: center; /* Centra todo el contenido dentro de #pie */
+    padding: 50px; /* Añade espacio interno alrededor del contenido */
+}
+
+#pie img {
+    display: block; /* Asegura que las imágenes se muestren como bloques para poder centrarlas */
+    margin: 0 auto 20px; /* Centra las imágenes horizontalmente y añade espacio inferior */
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al contenedor */
+    height: 60px; /* Ajusta la altura automáticamente manteniendo la proporción */
+}
+
+#pie h1 {
+    font-size: 24px; /* Tamaño del título principal */
+    color: #ffffff; /* Color del texto del título */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+#pie h3 {
+    font-size: 14px; /* Tamaño del texto del pie de página */
+    color: #e6ff56; /* Color del texto del pie de página */
+    margin-top: 10px; /* Espacio superior */
+}
+
+
+
+
+
